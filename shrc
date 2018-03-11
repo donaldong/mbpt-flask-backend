@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+source ./venv/bin/activate
+source ./key.sh
+export FLASK_APP=$(pwd)"/src/app.py"
